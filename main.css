@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+body {
+    background-color: #dcedd9;
+    color: #151415;
+    text-size-adjust: 8rem;
+    padding: 2rem;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-inline: 20rem;
+    position: fixed;
+    bottom: 20rem;
+    right: 0;
+}
+
+.logo {
+    width: 8rem;
+}
+
+.logo-header {
+    order: 1;
+    padding: .5rem;
+}
+
+
+h1 {
+    font-size: 1rem;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: .3s;
+    pointer-events: none;
+}
+
+header:hover h1 {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+header:hover {
+    background-color: #445b40;
+    ;
+}
+
+.item img {
+    max-width: 8rem;
+}
+
+
+.navbar {
+    background-color: #ececec;
+    color: #1c1c1c;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+.listaperroscontainer {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    right: 0;
+    padding: 4rem;
+    margin: 3rem;
+    border-color: rgb(7, 8, 8);
+
+}
+
+
+    
+
+.copyright {
+ flex-direction: row;
+        
+}

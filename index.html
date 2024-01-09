@@ -1,9 +1,52 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aplicación Web Interactiva</title>
-    <link rel="stylesheet" href="./main.js">
+    <title>Compra tu alimento para tu mascota</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
+
+
 <body>
+    <!-- NAVBAR -->
+    <nav>
+        <ul class="navbar">
+            <li>Inicio</li>
+            <li>Quiénes somos</li>
+            <li>Contacto</li>
+        </ul>
+    </nav>
+
+    <header>
+        <img class="logo logo-header" src="images/perrito.jpg" alt="Logo">
+        <h1>Elegi el alimento favorito de tu mascota</h1>
+    </header>
+
+
+ <main>
+        <!-- Contenedor para mostrar la lista de productos -->
+        <div class="listaperroscontainer" id="listaPerrosContainer"></div>
+
+        <div id="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="listaCarrito"></ul>
+            <p>Total: $<span id="totalCarrito">0</span></p>
+        </div>
+</main>
+
+
+<footer>
+        <div>
+        <p class="copyright">© 2024 RM. All rights reserved.</p>
+        </div>
+</footer>
+
+<!-- Vincular archivos JavaScript -->
+<script src="./js/productos.js"></script>
+<script src="./js/carritocompras.js"></script>
+
+     
+</body>
+</html>

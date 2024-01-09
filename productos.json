@@ -1,0 +1,162 @@
+[
+    {
+        "tipo": "CACHORRO",
+        "productos": [
+            {
+                "id": 1,
+                "tipo": "CACHORRO",
+                "marca": "ROYAL",
+                "modelo": "COMUN",
+                "precio": 1500,
+                "img": "./images/cachorro.jpg"
+            },
+            {
+                "id": 2,
+                "tipo": "CACHORRO",
+                "marca": "ROYAL",
+                "modelo": "RAZAPEQUEÑA",
+                "precio": 1800,
+                "img": "./images/cachorro.jpg"
+            },
+            {
+                "id": 3,
+                "tipo": "CACHORRO",
+                "marca": "ROYAL",
+                "modelo": "RAZAGRANDE",
+                "precio": 2000,
+                "img": "./images/cachorro.jpg"
+            },
+            {
+                "id": 4,
+                "tipo": "CACHORRO",
+                "marca": "KANUBA",
+                "modelo": "COMUN",
+                "precio": 1200,
+                "img": "./images/cachorro.jpg"
+            },
+            {
+                "id": 5,
+                "tipo": "CACHORRO",
+                "marca": "KANUBA",
+                "modelo": "RAZAPEQUEÑA",
+                "precio": 1500,
+                "img": "./images/cachorro.jpg"
+            },
+            {
+                "id": 6,
+                "tipo": "CACHORRO",
+                "marca": "KANUBA",
+                "modelo": "RAZAGRANDE",
+                "precio": 1800,
+                "img": "./images/cachorro.jpg"
+            }
+        ]
+    },
+    {
+        "tipo": "ADULTO",
+        "productos": [
+            {
+                "id": 7,
+                "tipo": "ADULTO",
+                "marca": "ROYAL",
+                "modelo": "COMUN",
+                "precio": 2000,
+                "img": "./images/adulto.jpg"
+            },
+            {
+                "id": 8,
+                "tipo": "ADULTO",
+                "marca": "ROYAL",
+                "modelo": "RAZAPEQUEÑA",
+                "precio": 2200,
+                "img": "./images/adulto.jpg"
+            },
+            {
+                "id": 9,
+                "tipo": "ADULTO",
+                "marca": "ROYAL",
+                "modelo": "RAZAGRANDE",
+                "precio": 2500,
+                "img": "./images/adulto.jpg"
+            },
+            {
+                "id": 10,
+                "tipo": "ADULTO",
+                "marca": "KANUBA",
+                "modelo": "COMUN",
+                "precio": 2300,
+                "img": "./images/adulto.jpg"
+            },
+            {
+                "id": 11,
+                "tipo": "ADULTO",
+                "marca": "KANUBA",
+                "modelo": "RAZAPEQUEÑA",
+                "precio": 2500,
+                "img": "./images/adulto.jpg"
+            },
+            {
+                "id": 12,
+                "tipo": "ADULTO",
+                "marca": "KANUBA",
+                "modelo": "RAZAGRANDE",
+                "precio": 2700,
+                "img": "./images/adulto.jpg"
+            }
+
+        ]
+    },
+    {
+        "tipo": "ADULTOMAYOR",
+        "productos": [
+            {
+                "id": 13,
+                "tipo": "ADULTOMAYOR",
+                "marca": "ROYAL",
+                "modelo": "COMUN",
+                "precio": 2800,
+                "img": "./images/adulto mayor.jpg"
+            },
+            {
+                "id": 14,
+                "tipo": "ADULTOMAYOR",
+                "marca": "ROYAL",
+                "modelo": "RAZAPEQUEÑA",
+                "precio": 3000,
+                "img": "./images/adulto mayor.jpg"
+            },
+            {
+                "id": 15,
+                "tipo": "ADULTOMAYOR",
+                "marca": "ROYAL",
+                "modelo": "RAZAGRANDE",
+                "precio": 3200,
+                "img": "./images/adulto mayor.jpg"
+            },
+            {
+                "id": 16,
+                "tipo": "ADULTOMAYOR",
+                "marca": "KANUBA",
+                "modelo": "COMUN",
+                "precio": 3000,
+                "img": "./images/adulto mayor.jpg"
+            },
+            {
+                "id": 17,
+                "tipo": "ADULTOMAYOR",
+                "marca": "KANUBA",
+                "modelo": "RAZAPEQUEÑA",
+                "precio": 3200,
+                "img": "./images/adulto mayor.jpg"
+            },
+            {
+                "id": 18,
+                "tipo": "ADULTOMAYOR",
+                "marca": "KANUBA",
+                "modelo": "RAZAGRANDE",
+                "precio": 3500,
+                "img": "./images/adulto mayor.jpg"
+            }
+        ]
+    }
+]
